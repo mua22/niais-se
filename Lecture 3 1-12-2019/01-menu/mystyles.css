@@ -1,0 +1,37 @@
+.top-menu-li {
+  display: inline;
+  margin-right: 5px;
+  /* list-style-type: none; */
+}
+
+#topMenu {
+  background-color: purple;
+  margin: 0px;
+}
+.top-menu-li a {
+  color: white;
+}
+p:first-letter {
+  color: orangered;
+}
+.top-menu-li a:hover {
+  color: rgb(177, 177, 109);
+}
+/* .top-menu-link {
+  color: white;
+} */
+
+#education {
+  border: 2px ridge red;
+  border-bottom: 1px solid blue;
+  border-right-style: dotted;
+  margin: 15px;
+  background-color: cadetblue;
+  padding: 20px;
+  text-align: justify;
+}
+
+#skills {
+  padding: 20px;
+  /* background-color: aqua; */
+}

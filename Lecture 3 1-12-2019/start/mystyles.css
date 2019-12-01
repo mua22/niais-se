@@ -1,0 +1,13 @@
+/* Pick Id with # */
+#specialHeading {
+  color: white;
+  background-color: blue;
+}
+/* pick Class with . */
+.shout {
+  color: red;
+}
+
+.special {
+  background-color: lightgray;
+}
