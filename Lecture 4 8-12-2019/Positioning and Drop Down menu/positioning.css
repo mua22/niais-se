@@ -1,0 +1,29 @@
+#goTop {
+  position: fixed;
+  bottom: 0px;
+}
+
+.relative {
+  border: 2px solid blue;
+  position: relative;
+  top: 15px;
+  background-color: orange;
+  /* z-index: -1; */
+}
+
+p {
+  background-color: aqua;
+}
+.absolute {
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.sticky {
+  position: sticky;
+  background-color: blue;
+  top: 0px;
+}

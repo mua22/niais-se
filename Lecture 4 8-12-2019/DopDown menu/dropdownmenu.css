@@ -1,0 +1,34 @@
+#topMenu {
+  background-color: darkgray;
+  margin-top: 0px;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+}
+#topMenu li {
+  display: inline;
+  margin-right: 5px;
+}
+#topMenu li a {
+  color: white;
+}
+
+.dropDown {
+  background-color: orange;
+  position: absolute;
+  list-style-type: none;
+  top: 15px;
+  left: 0px;
+  display: none;
+  width: 100%;
+}
+.dropDown li {
+  display: block;
+}
+.hasDropDown {
+  position: relative;
+}
+.hasDropDown:hover .dropDown {
+  display: block;
+}
