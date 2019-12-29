@@ -1,0 +1,16 @@
+.left {
+  float: left;
+  width: 100px;
+  min-height: 100px;
+}
+.right {
+  float: right;
+  width: 100px;
+  min-height: 200px;
+}
+
+#example {
+  width: 100px;
+  background-color: blueviolet;
+  color: white;
+}
