@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minimum Setup</title>
+    <link rel="stylesheet" href="components/bootstrap2/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="components/bootstrap2/css/bootstrap-responsive.css"
+    />
+    <link rel="stylesheet" href="css/calendar.css" />
+  </head>
+  <body>
+    <div id="calendar"></div>
+
+    <script
+      type="text/javascript"
+      src="components/jquery/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="components/underscore/underscore-min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="components/bootstrap2/js/bootstrap.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="components/jstimezonedetect/jstz.min.js"
+    ></script>
+    <script type="text/javascript" src="js/calendar.js"></script>
+    <script type="text/javascript">
+      var calendar = $("#calendar").calendar({
+        events_source: function() {
+          return [];
+        }
+      });
+    </script>
+  </body>
+</html>

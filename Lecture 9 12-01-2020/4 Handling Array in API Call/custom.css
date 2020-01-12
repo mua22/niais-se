@@ -1,0 +1,7 @@
+#posts h1 {
+  color: red;
+}
+
+#posts p {
+  border-bottom: 2px dashed blue;
+}
